@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B85996B0-1F25-4FF9-8933-8923E0822619}</ProjectGuid>
+    <ProjectGuid>{0040B180-298A-4822-8A96-83A41BBA6335}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PoshWin10IoTCore</RootNamespace>
-    <AssemblyName>PoshWin10IoTCore</AssemblyName>
+    <RootNamespace>Win10IoTCoreLibrary</RootNamespace>
+    <AssemblyName>Win10IoTCoreLibrary</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -109,7 +109,7 @@
   <ItemGroup>
     <Compile Include="Gpio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Properties\PoshWin10IoTCore.rd.xml" />
+    <EmbeddedResource Include="Properties\Win10IoTCoreLibrary.rd.xml" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="WindowsIoT, Version=10.0.10586.0">
