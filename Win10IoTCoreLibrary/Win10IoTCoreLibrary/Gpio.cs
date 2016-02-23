@@ -1,6 +1,6 @@
 ﻿using Windows.Devices.Gpio;
 
-namespace PoshWin10IoTCore
+namespace Win10IoTCore
 {
     public class Gpio
     {
